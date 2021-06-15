@@ -9,3 +9,58 @@
     margin: 2% auto;
 }
 /* / common */
+
+header{
+    height: 100px;
+    background-color: rgb(220, 130, 255);
+}
+/* slider e colonne */
+main{
+    margin: 10px 0 ;
+}
+
+.slider{
+    height: 350px;
+    background-color: rgb(204, 177, 109);
+    margin: 20px 0;
+}
+
+.column_container{
+    background-color: rgb(24, 83, 194);
+    margin: 0 auto;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.box_header{
+    width: 100%;
+    height: 70px;
+    background-color: cyan;
+}
+
+.columns_box{
+    padding: 20px 0;
+}
+
+.columns_box div{
+    display: inline-block;
+    background-color: cyan;
+    padding: 10px;
+    float: left;
+}
+
+.columns_box > div:not(.middle_column){
+    width: 19%;
+}
+
+.middle_column{
+    margin: 0 10px;
+    width: 60%;
+}
+/* / slider e colonne */
+
+footer{
+    height: 50px;
+    background-color: purple;
+}
